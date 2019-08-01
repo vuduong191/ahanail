@@ -52,6 +52,11 @@ jQuery(document).ready(function($) {
         cellphone: cellphone,
 		message: message
       });
+	  $('#thank-you').modal('show');
+		$("#name").val("");
+		$("#email").val("");
+		$("#cellphone").val("");
+		$("#message").val("");	  
     });
 	
 
