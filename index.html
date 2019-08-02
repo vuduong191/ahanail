@@ -8,6 +8,23 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WZ94M5X');</script>
     <!-- End Google Tag Manager -->    
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2394527057306652');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2394527057306652&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->    
     <title>ahaNAIL</title>
     
     <meta charset="utf-8">
@@ -245,6 +262,11 @@
                 <div class="col-md-12">
                   <input type="submit" id="submit_button" value="Gửi" class="btn btn-primary mr-2 mb-2">
                 </div>
+                <script type="text/javascript">
+                document.getElementById('contactButton').addEventListener('click', function() {
+                  fbq('track', 'Contact');
+                }, false);
+                </script>                
               </div>
 
   
