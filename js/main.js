@@ -22,9 +22,9 @@ jQuery(document).ready(function($) {
     // Create a variable to reference the database
     var database = firebase.database();
 	var checkForm = database.ref("/form");
-	checkForm.on("value", function(snap) {
-		console.log(snap)
-	});	
+	// checkForm.on("value", function(snap) {
+	// 	console.log(snap)
+	// });	
 
     // Initial Variables (SET the first set IN FIREBASE FIRST)
     // Note remember to create these same variables in Firebase!
